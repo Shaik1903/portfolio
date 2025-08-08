@@ -1,33 +1,20 @@
-import { FiSmile, FiActivity, FiFeather, FiClock } from 'react-icons/fi';
+import { FiSmile, FiActivity, FiFeather, FiClock, FiCoffee, FiCpu, FiZap } from 'react-icons/fi';
 
 const points = [
-    {
-        icon: <FiActivity />,
-        title: 'Ships > Slides',
-        text: 'I obsess over 0→1 execution and production-readiness. Demos that delight, metrics that matter.',
-    },
-    {
-        icon: <FiFeather />,
-        title: 'LLM Whisperer',
-        text: 'I wrangle agents, evals, prompts, and context windows without breaking a sweat (or the token budget).',
-    },
-    {
-        icon: <FiClock />,
-        title: 'Latency-hawk',
-        text: 'Streaming-first everything. If it can be fast and smooth, it will be fast and smooth.',
-    },
-    {
-        icon: <FiSmile />,
-        title: 'Delightful UX',
-        text: 'Serious engineering with a fun vibe. Because AI should feel like magic, not a PDF.',
-    },
+    { icon: <FiZap />, title: 'Builds that blink', text: 'Tiny interactions, big smiles. Micro-animations are my love language.' },
+    { icon: <FiCpu />, title: 'Agent tamer', text: 'I negotiate with multi-agent systems so you don’t have to.' },
+    { icon: <FiClock />, title: 'Latency hawk', text: 'If a spinner shows up, it pays rent. Streaming-first or bust.' },
+    { icon: <FiFeather />, title: 'Prompt poet', text: 'Words that make models behave. Like magic spells, but version controlled.' },
+    { icon: <FiCoffee />, title: 'Caffeine-driven', text: 'I convert coffee to shipping features at suspicious speeds.' },
+    { icon: <FiSmile />, title: 'Fun > Formal', text: 'Professional when needed, playful by default. Memorable always.' },
 ];
 
 export default function WhyHireMe() {
     return (
         <section id="why" className="py-16 md:py-20">
             <div className="container mx-auto px-6 max-w-6xl">
-                <h2 className="section-title mb-6">Why hire me?</h2>
+                <h2 className="section-title mb-2">Why hire me?</h2>
+                <p className="subtle mb-6">Short answer: I ship. Long answer: I ship with flair.</p>
                 <div className="grid gap-6 md:grid-cols-2">
                     {points.map((p) => (
                         <article key={p.title} className="glass p-6">

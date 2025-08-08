@@ -1,21 +1,10 @@
 import { FiTool } from 'react-icons/fi';
 
 const skills = {
-    Languages: ['Python', 'SQL', 'C/C++ (260+ LeetCode)'],
-    Libraries: ['C++ STL', 'scikit-learn', 'NumPy', 'pandas', 'Matplotlib', 'Seaborn'],
-    Frameworks: ['LangChain', 'LangGraph', 'PyTorch', 'TensorFlow', 'Hugging Face', 'FastAPI', 'Git', 'LangSmith'],
-    Coursework: [
-        'Data Structures',
-        'Algorithms',
-        'DBMS',
-        'Operating Systems',
-        'GenAI',
-        'OOP',
-        'Software Engineering',
-        'Machine Learning',
-        'DevOps',
-        'NLP',
-    ],
+    Toolkit: ['Python', 'PyTorch', 'TensorFlow', 'LangGraph', 'LangChain', 'FastAPI', 'Postgres', 'Git'],
+    SecretSauce: ['Streaming UX', 'Agent patterns', 'RAG with taste', 'Prompt craft', 'Evals', 'Observability'],
+    AlsoFluentIn: ['C++ STL', 'pandas', 'sklearn', 'NumPy', 'Matplotlib', 'Seaborn'],
+    WhenNeeded: ['SQL', 'DevOps basics', 'Systems thinking', 'Talking to humans'],
 };
 
 export default function Skills() {

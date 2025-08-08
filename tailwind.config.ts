@@ -15,7 +15,7 @@ const config: Config = {
                 muted: '#9aa4b2',
             },
             fontFamily: {
-                display: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                display: ['var(--font-space-grotesk)', 'Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
                 mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
             },
             boxShadow: {
@@ -30,10 +30,15 @@ const config: Config = {
                     '0%': { backgroundPosition: '200% 0' },
                     '100%': { backgroundPosition: '-200% 0' },
                 },
+                wiggle: {
+                    '0%, 100%': { transform: 'rotate(-2deg)' },
+                    '50%': { transform: 'rotate(2deg)' },
+                },
             },
             animation: {
                 float: 'float 6s ease-in-out infinite',
                 shimmer: 'shimmer 8s linear infinite',
+                wiggle: 'wiggle 1.2s ease-in-out infinite',
             },
         },
     },

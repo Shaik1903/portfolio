@@ -1,4 +1,4 @@
-import { FiLayers, FiMessageCircle, FiImage, FiZap } from 'react-icons/fi';
+import { FiLayers, FiZap } from 'react-icons/fi';
 
 type Project = {
     title: string;
@@ -8,16 +8,19 @@ type Project = {
 
 const projects: Project[] = [
     {
-        title: 'Emotion Recognition in Multiparty Conversation',
-        description:
-            'Commonsense-infused ERC using COMET on MELD with fine-tuning and feature extraction. Weighted F1: 61.69 (vs SOTA 65.4).',
-        stack: ['TensorFlow', 'Fine-tuning', 'Feature extraction'],
+        title: 'Agent Orchestra',
+        description: 'A tiny battalion of AI agents that talk to each other, take hints, and don’t start a flame war.',
+        stack: ['Multi-agent', 'Streaming', 'Evals'],
     },
     {
-        title: 'AI-Driven Retinal Disease Classification + RAG QA',
-        description:
-            'EfficientNet-based OCT classification into 4 classes with 99.92% accuracy; RAG chatbot for patient-friendly Q&A.',
-        stack: ['PyTorch', 'RAG', 'Computer Vision'],
+        title: 'Retina Reader',
+        description: 'Computer vision that peeks at OCT scans and goes “yup, that’s not great” — with a friendly QA sidekick.',
+        stack: ['PyTorch', 'RAG', 'CV'],
+    },
+    {
+        title: 'Emotion Engine',
+        description: 'Models that understand conversation vibes. Less “what did you say?” and more “I get you.”',
+        stack: ['TensorFlow', 'Commonsense', 'MELD'],
     },
 ];
 

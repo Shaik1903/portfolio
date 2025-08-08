@@ -16,6 +16,7 @@ export default function Nav() {
             <nav className="container mx-auto px-6 max-w-6xl h-16 flex items-center justify-between">
                 <Link href="#" className="font-semibold tracking-tight">Sadikh</Link>
                 <div className="hidden md:flex items-center gap-2 text-white/80">
+                    <a href="#fun" className="px-3 py-2 hover:text-white">Fun</a>
                     <a href="#why" className="px-3 py-2 hover:text-white">Why me</a>
                     <a href="#experience" className="px-3 py-2 hover:text-white">Experience</a>
                     <a href="#education" className="px-3 py-2 hover:text-white">Education</a>

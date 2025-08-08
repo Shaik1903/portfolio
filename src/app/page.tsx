@@ -8,6 +8,8 @@ import WhyHireMe from '@/components/WhyHireMe';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Education from '@/components/Education';
+import FunFacts from '@/components/FunFacts';
+import NerdCorner from '@/components/NerdCorner';
 
 export default function Home() {
     return (
@@ -21,6 +23,8 @@ export default function Home() {
             <Research />
             <Projects />
             <Skills />
+            <FunFacts />
+            <NerdCorner />
             <Contact />
             <Footer />
         </main>

@@ -8,6 +8,7 @@ export default function Hero() {
     <section className="relative py-20 md:py-28">
       <div className="absolute inset-0 pointer-events-none [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]">
         <div className="absolute -top-24 left-1/2 -translate-x-1/2 h-72 w-[52rem] bg-gradient-to-r from-primary via-accent to-primary opacity-20 blur-3xl rounded-full animate-float" />
+        <div className="absolute bottom-0 left-0 right-0 h-40 bg-[radial-gradient(circle_at_20%_80%,rgba(124,92,255,0.15),transparent_60%),radial-gradient(circle_at_80%_90%,rgba(34,211,238,0.15),transparent_60%)]" />
       </div>
 
       <div className="container mx-auto px-6 max-w-6xl">
@@ -20,15 +21,14 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-8">
             <div className="flex-1">
               <div className="inline-flex items-center gap-2 mb-4">
-                <span className="tag">Machine Learning Engineer</span>
-                <span className="tag">IIIT Dharwad</span>
+                <span className="tag">Ships code, not vibes (ok… vibes too)</span>
+                <span className="tag">Powered by caffeine + CUDA</span>
               </div>
-              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-                Hi, I’m <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-accent to-white">Sadikh</span>.
+              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight font-display">
+                Hi, I’m <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-accent to-white">Sadikh</span> — your friendly neighborhood ML engineer.
               </h1>
               <p className="mt-4 text-lg text-white/80 max-w-2xl">
-                I build agentic systems, voice-first experiences, and ML products that ship. From 0→1 multi-agent workflows to
-                research-backed model improvements, I love turning ideas into delightful, production-grade AI.
+                I make AI agents behave, make models smarter, and make interfaces feel like magic. Less buzzword soup, more shipped stuff.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a
@@ -62,9 +62,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-transparent to-accent/30" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.12),transparent_40%),radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.08),transparent_45%)]" />
                 <div className="absolute bottom-0 p-4 w-full bg-black/30 backdrop-blur-sm">
-                  <p className="text-sm text-white/80">
-                    Currently building multi-agent and voice-based AI at <span className="text-white font-medium">Gaido.AI</span>
-                  </p>
+                  <p className="text-sm text-white/80">Currently teaching agents manners and microphones patience.</p>
                 </div>
               </div>
             </motion.div>
